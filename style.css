@@ -419,6 +419,7 @@ span{
 .section5 ul{
     list-style: none;
 }
+
 .section5 .main3 .text1{
     position: absolute;
     width: 572px;
@@ -732,6 +733,7 @@ span{
     line-height: 24px;  
     color: #FF5B50; 
 }
+
 .section6 .main4 .text4{
     position: absolute;
     width: 183.61px;
@@ -756,7 +758,7 @@ span{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #FF5B50;
 }
 .section6 .main4 .text6{
     position: absolute;
@@ -870,6 +872,10 @@ span{
     color: #FF5B50;
 }
 
+.section6 .main4 .rectangle1:hover{
+    background: #ff4d44; 
+}
+
 .section6 .main4 .rectangle1{
     position: absolute;
     width: 300px;
@@ -877,17 +883,27 @@ span{
     left: 87px;
     top: 3074px;
     background: #252525;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
+.section6 .main4 .rectangle2:hover{
+    background: #ff4d44; 
+}
 .section6 .main4 .rectangle2{
     position: absolute;
     width: 300px;
     height: 150px;
     left: 500px;
     top: 3074px;
-    background: #FF5B50;
+    background: #252525;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
+.section6 .main4 .rectangle3:hover{
+    background: #ff4d44; 
+}
 .section6 .main4 .rectangle3{
     position: absolute;
     width: 300px;
@@ -895,8 +911,13 @@ span{
     left: 905px;
     top: 3074px;
     background: #252525;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
+.section6 .main4 .rectangle4:hover{
+    background: #ff4d44;  
+}
 .section6 .main4 .rectangle4{
     position: absolute;
     width: 300px;
@@ -904,8 +925,13 @@ span{
     left: 83px;
     top: 3335px;
     background: #252525;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
+.section6 .main4 .rectangle5:hover{
+    background: #ff4d44; 
+}
 .section6 .main4 .rectangle5{
     position: absolute;
     width: 300px;
@@ -913,8 +939,13 @@ span{
     left: 500px;
     top: 3335px;
     background: #252525;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
+.section6 .main4 .rectangle6:hover{
+    background: #ff4d44; 
+}
 .section6 .main4 .rectangle6{
     position: absolute;
     width: 300px;
@@ -922,6 +953,8 @@ span{
     left: 905px;
     top: 3335px;
     background: #252525;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 .section6 .main4 .artista1{
@@ -991,6 +1024,11 @@ span{
     line-height: 24px;
     color: #FFFFFF;
     align-items: center;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.section6 .main4 .text14:hover{
+    color: #FF5B50;
 }
 
 .section6 .main4 .arrow-orange{
@@ -1021,6 +1059,21 @@ footer {
 .footer ul{
     list-style: none;
 }
+.footer ul li{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.footer ul li:hover{
+        color: #FF5B50;
+}
+
+.footer ul li a{
+    transition: all 0.3s ease 0s;
+    cursor: pointer
+}
+.footer ul li a:hover{
+    color: #FF5B50;
+}
 .footer .top-footer h1{
     position: absolute;
     width: 2076px;
@@ -1049,7 +1102,9 @@ footer {
     
     background: #FF5B50;
 }
-
+.footer .top-footer .arrow:hover{
+    cursor: pointer;
+}
 .footer .top-footer .line{
     position: absolute;
     width: 1440px;
@@ -1140,18 +1195,23 @@ input[type=submit] {
     font-weight: bolder;
 }
 
+
 .bottom{
     position: absolute;
     width: 239px;
     height: 26px;
     left: 87px;
     top: 550px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer
+}
+.bottom a:hover{
+    color:#FF5B50
 }
 .bottom a{
     color: #5A5757;
@@ -1161,7 +1221,12 @@ input[type=submit] {
     display: flex;
     position: absolute;
     width: 268px;
-    height: 37px;
+    height: 27px;
     left: 957px;
     top: 550px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer
+}
+.social-media :hover{
+    background: #FF5B50;
 }
