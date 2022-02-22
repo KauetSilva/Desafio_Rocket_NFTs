@@ -22,6 +22,8 @@ body{
     background-image: url(background.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .btn_1 {
@@ -66,7 +68,7 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
-
+/*SECTION 1*/
 .section1{
     display: flex;
     justify-content: center;
@@ -120,6 +122,8 @@ span{
 .section1 .navbar-conteiner ul li:hover{
     color: #ff5b50;
 }
+
+/*SECTION 2*/
 .section2 ul{
     display: flex;
     list-style: none;
@@ -175,6 +179,7 @@ span{
     top: 140px;
 }
 
+/*SECTION 3*/
 .section3 ul{
     display: flex;
     list-style: none;
@@ -276,6 +281,7 @@ span{
     box-sizing: border-box;
 }
 
+/*SECTION 4*/
 .section4 ul{
         list-style: none;
 }
@@ -416,6 +422,7 @@ span{
     top: 1352px;
 }
 
+/*SECTION 5*/
 .section5 ul{
     list-style: none;
 }
@@ -689,6 +696,7 @@ span{
     transform: rotate(3.02deg);
 }
 
+/*SECTION 6*/
 .section6 ul{
     list-style: none;
 }
@@ -1230,3 +1238,4 @@ input[type=submit] {
 .social-media :hover{
     background: #FF5B50;
 }
+
